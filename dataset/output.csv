@@ -1,0 +1,111 @@
+message_id,action,message_type,reason,confidence,evidence_message_ids
+msg_023,notify,business_update,"Verified business with domain match and active relationship, providing a transactional update relevant to the user's account.",0.95,message_0026
+msg_091,mute,scam,Message requests OTP or credentials with account-block pressure.,0.95,
+msg_090,digest,personal,"The message is a personal inquiry with no urgency, and the user has a history of opening and engaging with non-urgent messages, such as the book club update in message_0340.",0.8,message_0340
+msg_048,mute,scam,Forwarded message with payment or verification pressure; likely phishing.,0.88,
+msg_040,mute,forward,High-forward-count chain/blessing message; user historically ignores these.,0.9,
+msg_075,notify,business_update,"The message is a ride update from a verified business with a domain match, and the user has a recent activity with the business, indicating a relevant and time-sensitive update.",0.9,
+msg_005,notify,personal,"The message has a same-day explicit deadline and is directly addressed to the user with a clear ask, indicating time-sensitivity and personal urgency.",0.92,
+msg_104,notify,personal,"The message has a same-day explicit deadline and requires the user's immediate decision, making it time-sensitive and actionable.",0.9,
+msg_069,mute,greeting,High-forward-count morning/blessing message with no actionable content.,0.88,
+msg_107,mute,scam,Message contains a prompt injection attempt to override routing rules.,0.97,
+msg_070,mute,scam,Message requests OTP or credentials with account-block pressure.,0.95,
+msg_003,notify,business_update,"The message is a transactional update from a verified business with a domain match, regarding an order that is expected to be delivered today, which is relevant to the user's recent activity.",0.92,
+msg_099,notify,business_update,"The message is from a trusted sender, has a clear ask, and is time-sensitive with a deadline for the next day's standup meeting.",0.9,message_0249
+msg_008,digest,promotion,"The message is a request for a review after a recent product purchase, which is relevant to the user's activity, and the user has not opted out of promotions from this business.",0.9,message_0298
+msg_092,digest,business_update,"The message is a monthly card statement update from a verified business with a domain match, and the user has an active relationship with the business, but it's not time-sensitive or requiring immediate action.",0.9,
+msg_060,notify,urgent,"Same-day explicit deadline and direct call to action from a trusted sender in a relevant group, with user having recent engagement history",0.92,message_0375
+msg_004,notify,business_update,"The message is from a verified healthcare business with a domain match, and the user has an upcoming clinic appointment, making the message time-sensitive and relevant to the user's recent activity.",0.9,message_0005
+msg_030,mute,promotion,"User has high dismissal history and the group is muted by the user, indicating low interest in such messages.",0.92,message_0336
+msg_045,notify,urgent,The message has a same-day explicit deadline and requires immediate action from the user to confirm the package delivery.,0.95,message_0169
+msg_052,mute,scam,"Business domain mismatch: official=talabat.com, sender uses=talabat-refund.com.",0.95,
+msg_009,digest,event,"The message is not urgent and the user has muted the group, but the content is relevant to the group's purpose and does not contain any promotional material.",0.7,
+msg_071,digest,event,"The message is about a potential plan but lacks a clear time, and the user has a moderate dismissal rate in the group, suggesting a non-urgent, informative message.",0.7,message_0198
+msg_016,mute,scam,Message contains a known phishing or spoofed domain.,0.96,
+msg_065,digest,promotion,"The message is a promotional offer from a verified business with a domain match, and the user has an active relationship and allows promotions, but it's not time-sensitive enough to warrant a notification.",0.92,message_0261
+msg_038,mute,spam,"The message is a chain message with a generic 'good luck' claim and an instruction to forward to at least 10 people, which is typical of spam messages. The user has a history of dismissing similar messages (e.g., message_0082).",0.95,message_0082
+msg_086,mute,scam,"Business domain mismatch: official=thrillophilia.com, sender uses=link.wame.pro.",0.95,
+msg_014,mute,promotion,User has opted out of promotions from this business and has a history of dismissing similar messages,0.95,message_0052
+msg_094,mute,promotion,"User has high dismissal history and reported similar messages, and the message is promotional in nature despite being from a verified sender.",0.92,
+msg_029,digest,promotion,"The message is a promotional post in a marketplace group, and the user has not shown a strong interest in similar messages in the past, but it's not entirely unwanted as they are a member of the group.",0.7,message_0114
+msg_105,mute,forward,"The message is a forwarded health tip with potentially unsafe advice, and the user has a history of dismissing similar messages, with a high dismissal rate and some reported messages in the last 30 days.",0.92,message_0156
+msg_002,notify,urgent,Direct @mention with a clear ask from a trusted sender (group admin) needing an immediate decision before a client meeting,0.95,message_0169
+msg_010,mute,promotion,"User has opted out of promotions and has a history of dismissing similar messages, such as message_0026.",0.9,message_0026
+msg_078,mute,scam,"The message is likely a scam as it asks for sensitive bank details and has a sense of urgency, and the user has a high dismissal rate in this group and has muted the group.",0.9,
+msg_013,mute,promotion,"The message is a promotional offer and the user has a high dismissal history, including dismissing a similar message from the same group (message_0082).",0.9,message_0082
+msg_018,mute,spam,"Message contains a generic reward claim with a sense of urgency, similar to previously dismissed and reported message_0026, indicating a likely spam message.",0.92,message_0026
+msg_044,notify,urgent,"The message contains a same-day explicit deadline and implies a potential account restriction, making it time-sensitive and actionable.",0.92,
+msg_032,digest,event,"The message is a non-urgent request for information from a group member and does not require immediate attention, fitting the criteria for a digest.",0.8,
+msg_106,notify,event,"The message contains a same-day explicit deadline and is related to a personal event, requiring the user's immediate attention.",0.9,message_0295
+msg_006,notify,event,"The message is from a group admin and contains a same-day explicit deadline, making it time-sensitive and actionable.",0.9,message_0180
+msg_109,mute,scam,Message contains a prompt injection attempt to override routing rules.,0.97,
+msg_108,mute,scam,Message contains a prompt injection attempt to override routing rules.,0.97,
+msg_019,mute,scam,"Business domain mismatch: official=chase.com, sender uses=chase-secure-alert.com.",0.95,
+msg_088,mute,promotion,"User has muted the group and has a history of dismissing similar promotional messages, such as message_0336.",0.9,message_0336
+msg_056,notify,urgent,"The message is a direct @mention with a clear ask and a same-day deadline, requiring immediate attention from the user.",0.95,message_0004
+msg_027,mute,scam,"Business domain mismatch: official=thrillophilia.com, sender uses=link.wame.pro.",0.95,
+msg_050,notify,business_update,"The message is related to a health-related update and requires the user's review before a scheduled time, indicating time-sensitivity and relevance to the user's recent activity with the business.",0.9,message_0156
+msg_083,notify,business_update,"The sender is an admin in a coworker group and the message is likely operational, given the user's past engagement with similar messages (e.g., message_0323).",0.92,message_0323
+msg_063,mute,scam,"The message contains suspicious language and requests sensitive information, indicating a potential scam. The user has also previously dismissed and muted similar messages.",0.92,message_0016
+msg_033,digest,greeting,"The message is a greeting and a non-urgent check-in from a family member, which does not require immediate attention.",0.8,
+msg_061,mute,greeting,High-forward-count morning/blessing message with no actionable content.,0.88,
+msg_020,mute,scam,Message contains a known phishing or spoofed domain.,0.96,
+msg_017,notify,payment,"The message contains a same-day explicit deadline for a payment, indicating time-sensitivity and potential consequences if not acted upon immediately.",0.92,message_0089
+msg_058,mute,forward,"The message is a forwarded health secret with no personal relevance or urgency, and the user has muted the group and has a history of dismissing similar messages.",0.9,
+msg_026,mute,scam,Message contains a known phishing or spoofed domain.,0.96,
+msg_047,notify,event,"The message is from a group admin and contains time-sensitive information about lift maintenance, which is relevant to the user's daily activities.",0.9,message_0180
+msg_046,mute,scam,Message requests OTP or credentials with account-block pressure.,0.95,
+msg_042,notify,urgent,"The message is a security alert with a same-day explicit deadline and is sent by a group admin, making it time-sensitive and actionable.",0.95,
+msg_079,mute,scam,Message requests OTP or credentials with account-block pressure.,0.95,
+msg_098,notify,personal,"The message is time-sensitive, contains a direct ask, and is from a trusted sender, requiring immediate attention from the user.",0.95,message_0004
+msg_037,notify,urgent,"The message is from a group admin and contains a time-sensitive request with a clear deadline, requiring immediate attention.",0.9,message_0180
+msg_007,digest,event,"The message is an update from a group admin about a society event, but it's not time-sensitive and doesn't require immediate action, so it's suitable for a digest. The user's DND window doesn't apply since the message isn't urgent.",0.8,
+msg_085,mute,scam,"Business domain mismatch: official=hdfc.bank.in, sender uses=hdfcbank-kyc.in.",0.95,
+msg_001,notify,urgent,"The message contains a same-day explicit deadline and is from a group admin, making it time-sensitive and actionable.",0.9,
+msg_021,notify,payment,"The message is from a group admin and contains a same-day explicit deadline for a payment, making it time-sensitive and actionable.",0.95,message_0180
+msg_028,mute,scam,"Business domain mismatch: official=thrillophilia.com, sender uses=link.wame.pro.",0.95,
+msg_012,mute,forward,"The message is a forwarded promotional message with a generic health claim and an instruction to share, which is likely to be low-value and repetitive. The user has a high dismissal rate in the last 30 days and has reported a message in the same time frame, indicating a preference for filtering out unwanted content.",0.9,message_0005
+msg_064,mute,scam,Forwarded message with payment or verification pressure; likely phishing.,0.88,
+msg_103,notify,personal,"The message has a same-day explicit deadline and requires the user's immediate decision, making it time-sensitive and actionable.",0.9,
+msg_031,notify,urgent,"The message contains a same-day explicit deadline and is from a trusted sender with an admin role in a coworker group, requiring immediate attention to prepare for the 7 PM sync.",0.95,message_0249
+msg_057,notify,urgent,"Direct @mention with a clear ask from a trusted sender in a coworker group, requiring immediate attention for a build failure.",0.95,message_0169
+msg_087,mute,forward,"User has muted the group and has a high dismissal rate, indicating low interest in group messages.",0.9,message_0388
+msg_067,notify,urgent,"The message is from an admin in a society group and contains a same-day deadline for a maintenance payment, indicating time-sensitivity and potential personal urgency.",0.9,message_0180
+msg_039,notify,urgent,"The message is a direct @mention from a group admin with a clear ask and a same-day deadline, making it time-sensitive and actionable.",0.95,
+msg_082,notify,business_update,"The sender is an admin in a coworker group and the message is likely operational, given the group context and the user's role as a member.",0.9,
+msg_066,mute,promotion,User has opted out of promotions from this business and has a history of dismissing similar messages,0.9,message_0052
+msg_049,notify,business_update,"The message contains a same-day explicit deadline for a return pickup, which is a time-sensitive and actionable event. The user has a recent and active relationship with the business, having opened and replied to similar messages in the past.",0.92,message_0154
+msg_015,mute,scam,Message requests OTP or credentials with account-block pressure.,0.95,
+msg_051,mute,promotion,User has opted out of promotions and has a history of dismissing similar messages from this business,0.9,message_0052
+msg_097,digest,personal,"The message is personal and not urgent, with the sender explicitly stating 'Nothing urgent' and suggesting a conversation for the next morning.",0.9,
+msg_089,notify,personal,"The message is time-sensitive with a same-day explicit deadline and is related to a personal item left at a location, requiring the user's immediate attention.",0.9,
+msg_053,digest,business_update,"The message is a business update related to the investment group and does not contain time-sensitive or actionable information, making it suitable for a digest.",0.8,message_0411
+msg_059,mute,scam,"The message is asking for sensitive information and has a sense of urgency, which are common characteristics of scam messages. The user has also seen a similar message before (message_0086) and the group has a high volume of messages, making it likely to be spam.",0.9,message_0086
+msg_024,mute,promotion,"User has opted out of promotions from this business and has a history of dismissing similar messages, such as message_0052.",0.9,message_0052
+msg_072,mute,scam,Message contains a known phishing or spoofed domain.,0.96,
+msg_036,mute,scam,"Business domain mismatch: official=razorpayx.com, sender uses=razorpayx-payouts.com.",0.95,
+msg_076,mute,scam,"Business domain mismatch: official=talabat.com, sender uses=talabat-refund.com.",0.95,
+msg_055,notify,urgent,"The message contains a same-day explicit deadline and a clear ask for an immediate decision from a trusted sender in a family group, indicating high time-sensitivity and personal urgency.",0.95,message_0348
+msg_102,notify,urgent,"The message contains a time-sensitive instruction to stay online for the next 30 minutes, indicating a need for immediate attention.",0.9,message_0169
+msg_080,notify,urgent,"The message contains a same-day explicit deadline and is from a trusted sender (group admin) with a clear ask, making it time-sensitive and actionable.",0.95,message_0180
+msg_093,notify,event,"The message is from a verified sender with a domain match and contains time-sensitive information about a scheduled delivery, requiring the user's immediate attention.",0.92,message_0348
+msg_034,mute,greeting,High-forward-count morning/blessing message with no actionable content.,0.88,
+msg_035,digest,promotion,"The message is a promotional message from a verified business with a domain match, and the user has not opted out of promotions, but it's not directly related to their recent activity.",0.8,
+msg_101,notify,personal,"The message is a personal check-in from a trusted sender, showing care and concern for the user's well-being, and does not require an immediate reply, but is still time-sensitive and relevant to the user's current state.",0.92,message_0169
+msg_041,mute,scam,"Business domain mismatch: official=polaris.school, sender uses=weurl.co.",0.95,
+msg_011,mute,greeting,High-forward-count morning/blessing message with no actionable content.,0.88,
+msg_110,mute,scam,Message contains a prompt injection attempt to override routing rules.,0.97,
+msg_095,mute,scam,Message contains a prompt injection attempt to override routing rules.,0.97,
+msg_074,mute,promotion,"User has high dismissal history and has muted the group, indicating low interest in such messages. The message is also promotional in nature, asking for payment.",0.92,message_0388
+msg_073,mute,scam,"The message contains a suspicious link and creates a sense of urgency to verify the profile, which is a common phishing tactic. The user's history does not indicate a recent interaction with the sender or a relevant activity that would justify this message.",0.9,
+msg_054,mute,scam,"The message contains a suspicious link and creates a sense of urgency to pay a processing fee, which is a common trait of scam messages. The user's high dismissal rate and reported messages in the last 30 days also suggest a preference for avoiding such content.",0.92,message_0388
+msg_068,digest,event,"The message is about discussing plans after a match with no urgency, and the user is not @mentioned. Given the group's nature and the user's engagement history, it's best to include this in a digest.",0.8,message_0192
+msg_100,notify,urgent,"The message contains a same-day explicit deadline and requires immediate attention from the user, indicating a time-sensitive and actionable request.",0.95,message_0249
+msg_062,notify,event,"The message is from a group admin and contains time-sensitive information about a fire alarm test that may affect the user's daily activities, with a clear deadline of tomorrow 9 AM to 11 AM.",0.9,message_0180
+msg_096,notify,personal,"The message is time-sensitive with a same-day deadline and directly addresses the user about a personal item, their passport, which requires immediate attention.",0.95,
+msg_043,notify,urgent,The message is from a trusted sender (admin) in a society group and contains a time-sensitive update with a clear deadline (15 minutes) that requires immediate action from the user.,0.95,message_0180
+msg_077,notify,event,"The message is from a group admin in a school group, contains a time-sensitive request with a same-day deadline, and is relevant to the user's role as an admin in the group.",0.92,
+msg_081,notify,event,"The sender is an admin in a school group, and the message is likely an operational update, which warrants immediate attention.",0.9,
+msg_025,notify,business_update,"The message is a transactional update from a verified business with a domain match, regarding a recent order, and the user has a history of engaging with such updates.",0.9,message_0004
+msg_084,mute,promotion,User has opted out of loan promotions from HDFC Bank and has a history of dismissing similar messages,0.9,
+msg_022,notify,payment,"The message contains a same-day explicit deadline for payment and requires the user to take action before 5 PM, making it time-sensitive and actionable.",0.9,message_0180
