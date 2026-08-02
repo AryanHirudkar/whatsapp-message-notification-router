@@ -37,3 +37,5 @@ htmlcov/
 _hackathon_ref/
 code.zip
 *.log
+requirement.txt
+log.txt
